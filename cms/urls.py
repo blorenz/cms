@@ -16,7 +16,8 @@ urlpatterns = patterns('',
     # url(r'^admin/', include(admin.site.urls)),
     # Examples:
     url(r'^$', 'basecms.views.home', name='home'),
-    # url(r'^cms/', include('cms.foo.urls')),
+    url(r'^index/$', 'basecms.views.index'),
+	# url(r'^cms/', include('cms.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

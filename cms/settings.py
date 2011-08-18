@@ -119,6 +119,7 @@ INSTALLED_APPS = (
     'django.contrib.flatpages',
     'basecms',
     'gunicorn',
+    'search',
     
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',

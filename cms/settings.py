@@ -122,6 +122,7 @@ INSTALLED_APPS = (
     'basecms',
     'gunicorn',
     'search',
+    'coltrane',
     
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
